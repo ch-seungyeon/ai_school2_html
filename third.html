@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <form action='https://server.ai-school.com' method='POST'></form>
+        <label for='userid_input'>이메일</label>
+        <input id='userid_input' type='text' name='userid' placeholder='ID' />
+        <br />
+        <label for='userpw_input'>비밀번호</label>
+        <input id='userpw_input' type='password' name='userpw' placeholder='PW' />
+        <br />
+        <label for='find_pw'>비밀번호 찾기 질문</label>
+        <select id='find_pw' name='find_pw'>
+            <option value='고향'>태어난 고향은?</option>
+            <option value='어머니'>어머니 성함은?</option>
+            <option value='초등학교'>졸업한 초등학교는?</option>
+        </select>
+        <br />
+        <input type='text' name ='pw_answer' placeholder='응답 :' />
+        <br />
+        <br />
+        <label for='introd'>자기소개</label>
+        <textarea id='introd' name = 'content' cols='50' rows='50'>내용</textarea>
+        <br />
+        <button type='submit'>회원가입하기</button>
+
+</body>
+</html>
